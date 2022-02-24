@@ -1,11 +1,17 @@
 body {
   background-color: #f5f5f5;
+  font-family: helvetica;
 }
 
 h1 {
   color: white;
   text-align: center;
 }
+
+tr , td {
+  border-radius: 10px
+}
+
 
 p {
   font-family: verdana;
