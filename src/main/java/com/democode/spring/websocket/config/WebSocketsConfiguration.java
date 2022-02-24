@@ -13,7 +13,7 @@ public class WebSocketsConfiguration implements WebSocketMessageBrokerConfigurer
 
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
-	   registry.addEndpoint("/stomp-endpoint").withSockJS();
+	   registry.addEndpoint("/gs-guide-websocket").withSockJS();
 	}
 
 	
