@@ -1,5 +1,5 @@
 com\democode\spring\websocket\controller\GreetingController.class
 com\democode\spring\websocket\pojo\Greeting.class
 com\democode\spring\websocket\pojo\HelloMessage.class
-com\democode\spring\websocket\SpringWebsocketApplication.class
 com\democode\spring\websocket\config\WebSocketsConfiguration.class
+com\democode\spring\websocket\SpringWebsocketApplication.class

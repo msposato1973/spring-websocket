@@ -5,3 +5,5 @@ This guide walks you through the process of creating a "Hello, world" applicatio
 WebSocket is a thin and light layer on top of TCP.
 This makes it suitable for using "subprotocols" to embed messages. In this guide, we use STOMP messaging with Spring to create an interactive web application.
 STOMP is a subprotocol that operates on top of the lower level WebSocket.
+
+# Starting with Spring Initializr
