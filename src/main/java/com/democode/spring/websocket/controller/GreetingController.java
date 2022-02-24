@@ -15,7 +15,17 @@ public class GreetingController {
 	 @SendTo("/topic/greetings")
 	 public Greeting greeting(HelloMessage message) throws Exception {
 	    Thread.sleep(1000); // simulated delay
-	    return new Greeting("Hello, " + HtmlUtils.htmlEscape(message.getName()) + " " + message.getLastName() +"!");
+	 
+	    return new Greeting("Welcome, " + HtmlUtils.htmlEscape( 
+	    					getGreetings(message))
+	    		   );
 	 }
 
+	 private String  getGreetings(HelloMessage message) {
+		 return String.format(
+	    		  " %1$s, %2$s !", 
+	    		  message.getName(), 
+	    		  message.getLastName()
+	     );
+	 }
 }
